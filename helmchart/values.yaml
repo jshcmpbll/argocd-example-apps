@@ -5,3 +5,8 @@ projects:
     name: guest
     description: "Argo project for the guest namespace"
 apps:
+  guestbook:
+    name: guestbook
+    namespace: guest
+    repoOwner: jshcmpbll
+    hash: master
