@@ -1,0 +1,17 @@
+---
+env: local
+projects:
+  commerce:
+    name: commerce
+    description: "Argo project for the commerce namespace"
+  mdm:
+    name: mdm
+    description: "Argo project for the MDM namespace"
+  api-platform:
+    name: api-platform
+    description: "Argo project for the api-platform namespace"
+apps:
+  image:
+    name: api-image-service
+    namespace: commerce
+    repoOwner: wawa
