@@ -1,7 +1,7 @@
 ---
 env: local
 projects:
-  commerce:
+  guest:
     name: guest
     description: "Argo project for the guest namespace"
 apps:
